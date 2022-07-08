@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Screen capture API Demo</h1>
+        <button id="start">Start Capture</button>
+        <button id="stop">Stop Capture</button>
+        <div>
+            <video id="video" autoplay></video>
+        </div>
+
+        <span>
+            <!-- <video id="invigilator-video-screen" width="320" height="240" autoplay>
+            </video> -->
+            <video id="video"  width="320" height="240" autoplay></video>
+        </span>
+        <canvas id="invigilator-canvas-screen" style="display:none;">
+        </canvas>
+        <img id="invigilator-photo-screen" alt="The picture will appear in this box." style="display:none;"/>
+        <span class="invigilator-output-screen" style="display:none;"></span>
+        <span id="invigilator-log-screen" style="display:none;"></span>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
